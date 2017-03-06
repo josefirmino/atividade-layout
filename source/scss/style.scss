@@ -1,0 +1,29 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none !important;
+	color: #fff;
+}
+
+body{
+   background-color: #563d7c !important;
+}
+
+.col,[class*="col-"] {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #6f5a90;
+}
+
+p { text-align: justify; }
+
+a{
+	color: #fff !important;
+
+	&:hover{
+		color: #563d7c !important;
+	}
+
+
+}
